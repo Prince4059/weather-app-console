@@ -9,7 +9,7 @@ class Weather:
 
     def fetch_weather(self):
         """
-        Fetch weather data from OpenWeatherMap API
+        Fetch weather data from OpenWeatherMap API 
         """
         try:
             params = {
