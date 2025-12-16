@@ -66,7 +66,7 @@ class Weather:
 def main():
     print("===== Weather Report Console App =====")
 
-    api_key = "f2455cc990ba17d72072643df1623f13"  # 🔑 Replace with your API key
+    api_key = "Your api key here"  # 🔑 Replace with your API key
     city = input("Enter city name: ")
 
     weather = Weather(api_key, city)
